@@ -16,13 +16,50 @@ return [
         'path' => './assets/app.js',
         'entrypoint' => true,
     ],
-    '@hotwired/stimulus' => [
-        'version' => '3.2.2',
-    ],
     '@symfony/stimulus-bundle' => [
         'path' => './vendor/symfony/stimulus-bundle/assets/dist/loader.js',
     ],
+    '@hotwired/stimulus' => [
+        'version' => '3.2.2',
+    ],
     '@hotwired/turbo' => [
-        'version' => '7.3.0',
+        'version' => '8.0.13',
+    ],
+    'typed.js' => [
+        'version' => '2.1.0',
+    ],
+    'bootstrap-icons/font/bootstrap-icons.min.css' => [
+        'version' => '1.12.1',
+        'type' => 'css',
+    ],
+    'chart.js' => [
+        'version' => '4.4.9',
+    ],
+    '@kurkle/color' => [
+        'version' => '0.3.4',
+    ],
+    'tailwindcss' => [
+        'version' => '4.1.6',
+    ],
+    'tailwindcss/index.min.css' => [
+        'version' => '4.1.6',
+        'type' => 'css',
+    ],
+    'tom-select' => [
+        'version' => '2.4.3',
+    ],
+    '@orchidjs/sifter' => [
+        'version' => '1.1.0',
+    ],
+    '@orchidjs/unicode-variants' => [
+        'version' => '1.1.2',
+    ],
+    'tom-select/dist/css/tom-select.default.min.css' => [
+        'version' => '2.4.3',
+        'type' => 'css',
+    ],
+    'tom-select/dist/css/tom-select.default.css' => [
+        'version' => '2.4.3',
+        'type' => 'css',
     ],
 ];
